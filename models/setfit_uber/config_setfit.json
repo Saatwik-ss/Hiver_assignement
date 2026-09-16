@@ -1,0 +1,17 @@
+{
+  "labels": [
+    "account_access",
+    "app_technical",
+    "driver_behavior",
+    "eats_order",
+    "general_complaint",
+    "lost_item",
+    "payment_billing",
+    "positive_feedback",
+    "ride_cancellation",
+    "safety_incident",
+    "trip_issue",
+    "wait_time"
+  ],
+  "normalize_embeddings": false
+}

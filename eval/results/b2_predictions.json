@@ -1,0 +1,1262 @@
+[
+  {
+    "intent": "general_complaint",
+    "confidence": 0.6575963497161865,
+    "reply": "Here to help! Please send us a DM with your email address and more info regarding your concern so we can assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "positive_feedback",
+    "confidence": 0.5973907709121704,
+    "reply": "Thank you! We know how time-sensitive this issue is for you. Hang-tight for us!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.5376052856445312,
+    "reply": "We're here to help! Send us a DM with your email address so we can follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "wait_time",
+    "confidence": 0.6050599217414856,
+    "reply": "Hey there, Ellie. We do respond in order inquiries are received. Please keep an eye out for this update coming your way. Thank you.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "wait_time",
+    "confidence": 0.578580379486084,
+    "reply": "We've been in touch via DM. Please keep an eye out for our response.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.6172604560852051,
+    "reply": "We're following up with you via DM, be on the look out for our response.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "wait_time",
+    "confidence": 0.5613176226615906,
+    "reply": "We're sorry to hear about this, Alhashimi. Sign in and visit us at so our team can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.620826244354248,
+    "reply": "Here to help! Send us a note at so our team can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "safety_incident",
+    "confidence": 0.589658796787262,
+    "reply": "We've been in touch via DM!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.000000238418579
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.6909377574920654,
+    "reply": "We're sorry for the trouble. Please contact us via and we'll be in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.5698026418685913,
+    "reply": "Thanks for reaching out! We're not seeing a current Direct Message from you. Please DM us your account email and further details regarding your issue and we'll connect. Thanks!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.5812369585037231,
+    "reply": "We have received your DM and will follow up there. Thanks!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 0.9999998807907104
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.7088941335678101,
+    "reply": "Sorry to hear the trouble, Shiva! You can reset your password here:",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "trip_issue",
+    "confidence": 0.550134539604187,
+    "reply": "We're always here to help! Send us a DM with your email address so we can assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "positive_feedback",
+    "confidence": 0.5929726362228394,
+    "reply": "Oh no! Please DM us the email linked to your account so we can look into this for you. We look forward to your response.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.6300010085105896,
+    "reply": "We're here to help - DM us the email address connected with your account so our team can look into this further.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.5807067155838013,
+    "reply": "We've sent you a DM.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.674053966999054,
+    "reply": "Here to help! Check out for more information.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "positive_feedback",
+    "confidence": 0.5345015525817871,
+    "reply": "Car seats are currently only available in select locations. To find out more visit",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7258098125457764,
+    "reply": "Here to help! Send us a note here; and our team will be able to assist!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "eats_order",
+    "confidence": 0.7112181186676025,
+    "reply": "Sorry for the trouble! Send us a note here, and our team will be in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.5705834031105042,
+    "reply": "Sorry to hear of the trouble! Please DM us the email address linked to your Uber account and more details so we can further assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.6801533102989197,
+    "reply": "Happy to take a closer look! Send us your email address with details so we can follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "driver_behavior",
+    "confidence": 0.7210285663604736,
+    "reply": "We apologize for the trouble! Please send us a note at and we'll be happy to look into this for you.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.5301799774169922,
+    "reply": "We're here to help! Send us a DM with your email address and more details so we can follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "wait_time",
+    "confidence": 0.5647737383842468,
+    "reply": "Sorry for the delay. Our team has followed up with you via email regarding this matter. Our responses can be found both in-app via the Help tab and within the email address associated with your account. Please reply there directly and we will be sure to follow up with you.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.7391656637191772,
+    "reply": "Here to help! Send us a note via and we'll be in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.6036308407783508,
+    "reply": "Here to help! Send us a note at so our team can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.7333812117576599,
+    "reply": "Here to help. Send a note here: so we can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "trip_issue",
+    "confidence": 0.5609459280967712,
+    "reply": "We're aware of the issue and are working to resolve ASAP. We appreciate your patience.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 0.9999998807907104
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.605962872505188,
+    "reply": "We were unable to locate a support inquiry with the information you provided. Send us a message via the link previously provided.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 0.9999999403953552
+  },
+  {
+    "intent": "driver_behavior",
+    "confidence": 0.7027561664581299,
+    "reply": "We take this very seriously. Please send us a DM with your email address so we can connect ASAP.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.5271570086479187,
+    "reply": "Hey, Ken. We see your DM and will connect with you there. Thanks!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "trip_issue",
+    "confidence": 0.49049246311187744,
+    "reply": "We've responded via DM!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "safety_incident",
+    "confidence": 0.6416659355163574,
+    "reply": "That doesn't sound right. Please send us a DM with your email address so we can look into this immediately.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.6121127009391785,
+    "reply": "Please send us that information in a DM to protect your privacy. Thank you for your patience!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.6614832878112793,
+    "reply": "Sorry for the confusion. Can you please send us a DM of your email address so we can look into this?",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.611884355545044,
+    "reply": "Here to help! At this moment, we don't offer phone support for these issues. Visit this link so our team can assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.7488991022109985,
+    "reply": "Here to help! Send us a note here, and our team will follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "safety_incident",
+    "confidence": 0.5255578756332397,
+    "reply": "Here to help! Send us a DM with your email address so we can assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "safety_incident",
+    "confidence": 0.6622205972671509,
+    "reply": "Here to help! Send us a note via and we'll be in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.5675069093704224,
+    "reply": "Sorry to hear about the trouble! Please DM us your account email so we can take a closer look into this.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 0.9999999403953552
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.6846356391906738,
+    "reply": "Due to our privacy policy, we will have to speak directly to the account holder. Please have them contact us via",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "driver_behavior",
+    "confidence": 0.658379316329956,
+    "reply": "Absolutely. Head over to for info on how to add a tip after your delivery has been completed. Have a great day!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.6626630425453186,
+    "reply": "Here to help! Follow up here; and our team will connect right away.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.6879777908325195,
+    "reply": "We're here to help! Send us a DM with your email address so we can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.5958137512207031,
+    "reply": "Hi, Ivanna, we are happy to assist you. Could you please provide us with the email that is obligated to your account?",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "eats_order",
+    "confidence": 0.662684977054596,
+    "reply": "We're here to help, Kandace! Please send us a DM with your UberEATS account email address and phone number.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.523880660533905,
+    "reply": "We're here to help! Send us a DM with your email address and more details so we can follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.5101302266120911,
+    "reply": "Please DM us your email address, so we can better assist you.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.5704400539398193,
+    "reply": "Sorry to hear about this! Send us a DM with your email address so we can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "wait_time",
+    "confidence": 0.5809563398361206,
+    "reply": "Hi, Devon! If you do not see the car/calendar icon next to the \"Where to\" it probably isn't available at your current location.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.000000238418579
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.7081187963485718,
+    "reply": "We're here to help! Send us a note via so our team can assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "driver_behavior",
+    "confidence": 0.6937704086303711,
+    "reply": "We're here to help! Send us a DM with your email address and more details of your concern so we can follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7101924419403076,
+    "reply": "Hi - here to help. Please DM us the details of your question or concern so we may follow up with you on this.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.5730683207511902,
+    "reply": "Here to help! Send us a note here; and our team will be able to help.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.6569621562957764,
+    "reply": "We're here to help! Send us a note here, and so our team will assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 0.9999999403953552
+  },
+  {
+    "intent": "eats_order",
+    "confidence": 0.6121698617935181,
+    "reply": "Thanks, Prateek. We'll be following up via the in-app support. Please keep an eye on the \"Help\" section of your app for our reply.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "driver_behavior",
+    "confidence": 0.6725515127182007,
+    "reply": "Sorry to hear about the troubles, Alfon. Please send us a note at so we can look into this for you.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.6047629714012146,
+    "reply": "We're here to help! Send us a note here, and so our team will assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.6795804500579834,
+    "reply": "Sorry to hear about that! Can you please contact us via so our team can connect?",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "wait_time",
+    "confidence": 0.6053810119628906,
+    "reply": "Happy to help! Please reach out to and fill out the 4 boxes at the bottom so we can get in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.6365996599197388,
+    "reply": "Here to help! Send us a note via and we'll be in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "eats_order",
+    "confidence": 0.6280161142349243,
+    "reply": "Here to help. Send us a note at so our team can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.671116054058075,
+    "reply": "Here to help! Please send us a note at and we'll be happy to look into this for you.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7558616399765015,
+    "reply": "We've been in touch via DM!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "eats_order",
+    "confidence": 0.7515182495117188,
+    "reply": "Here to help! Send us a note at so our team can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "positive_feedback",
+    "confidence": 0.6781103610992432,
+    "reply": "We're sorry to hear this was your experience. Kindly contact us via and we'll be in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7320961952209473,
+    "reply": "Hey Ivanna, please reach out with the details at so we can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.6889113783836365,
+    "reply": "Sorry about that! Please send us a note at and we'll be happy to look into this for you.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.5998095273971558,
+    "reply": "We'd be glad to take a second look at your support inquiry and follow up right away, Steph! Please send us a DM with your email address.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "eats_order",
+    "confidence": 0.6806224584579468,
+    "reply": "Sorry to hear what happened. Please send us a note here; and our team will get in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 0.9999998807907104
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.6789579391479492,
+    "reply": "We want to follow up ASAP. Can you please send us a DM with your email address and additional details so we can connect?",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 0.9999999403953552
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.6901777982711792,
+    "reply": "Here to help! Send us a note here; our team will be able to assist!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "eats_order",
+    "confidence": 0.7140427827835083,
+    "reply": "That doesn't sound right. Can you please send us a DM with your email address so we can look into this?",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.639891505241394,
+    "reply": "We want to follow up ASAP. Can you please send us a DM with your email address and additional details so we can connect?",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.000000238418579
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7765330672264099,
+    "reply": "We're so sorry for the trouble. Send us a note via so we can assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "eats_order",
+    "confidence": 0.7183465957641602,
+    "reply": "We're so sorry for the trouble. Send us a note via so we can assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "safety_incident",
+    "confidence": 0.6453396081924438,
+    "reply": "Here to help! Send us a note here, and our team will follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 0.9999999403953552
+  },
+  {
+    "intent": "driver_behavior",
+    "confidence": 0.686785876750946,
+    "reply": "We apologize for the trouble! We're currently reviewing your email and will connect right away.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7062297463417053,
+    "reply": "We're here to help! Send us your email address and more details so we can follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.6892396211624146,
+    "reply": "Here to help! Follow up here; and our team will connect right away.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.7309306859970093,
+    "reply": "Due to our privacy policy, we will have to speak directly to the account holder. Please have them contact us via",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.7287603616714478,
+    "reply": "Happy to help, Ashley. Send us a DM with your account email address + trip details and we'll be in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.7005176544189453,
+    "reply": "Here to help! Please send us a DM with your email address and more info regarding your concern so we can assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7822751998901367,
+    "reply": "Thanks for reaching back out to us about this, Anuj. However, any and all updates will be found via in-app support. We suggest at this time you go there where we have messaged you. Please follow up with that message. We look forward to your reply.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.7084702849388123,
+    "reply": "Thanks for reaching out, Ant, we're happy to help! Go ahead and DM us your Uber account email and the details of the issue. We'll follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.6863390207290649,
+    "reply": "So sorry about the trouble! Please send us a note here: and a member of our team will follow up asap.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7384124994277954,
+    "reply": "Hi there! We see your outreach and a member of our team will be following up via email as soon as possible. We appreciate your patience.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "wait_time",
+    "confidence": 0.6744651198387146,
+    "reply": "We can take a look! Send us a note via so our team can get in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7232284545898438,
+    "reply": "We apologize for the trouble! We're currently reviewing your email and will connect right away. We appreciate your patience.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.6698218584060669,
+    "reply": "We'd like to look into this. Please send us a note at and a member of our team will follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.6630393266677856,
+    "reply": "Here to help. Send us a note at so our team can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7039183378219604,
+    "reply": "That's definitely not okay. Please send us a note at so we can connect right away.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "positive_feedback",
+    "confidence": 0.7037323713302612,
+    "reply": "Hi there! Please visit; for more info. Please let us know if you have any other questions or concerns.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.6674978733062744,
+    "reply": "Let us look into this, Gerard. Please send us a DM so we can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.6607837677001953,
+    "reply": "That doesn't sound right. Can you please send us a DM with your email and more details so we can look into this?",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "eats_order",
+    "confidence": 0.7017310857772827,
+    "reply": "Sorry to hear that, Alan! Please send us a note with your delivery address and the restaurant details at so we can look into this further for you.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "safety_incident",
+    "confidence": 0.6402368545532227,
+    "reply": "We'd like to assist ASAP, Rodolfo! Please reach out to us directly at the link provided in our last message so we can put you in touch with our team of account specialists.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.7337390184402466,
+    "reply": "We've responded to your DM, Mphikeleli!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.000000238418579
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.7060057520866394,
+    "reply": "Happy to help! Please confirm your email address or phone number through direct message so we can further assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7416324615478516,
+    "reply": "Hi there! Find out more info about ride pass on this link;",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.000000238418579
+  },
+  {
+    "intent": "driver_behavior",
+    "confidence": 0.6754297018051147,
+    "reply": "Here to further assist you! Send us a DM with your email address so we can follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.000000238418579
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.6332929134368896,
+    "reply": "We'd be happy to clarify. We're not able to change the rating after it has been submitted. We appreciate your understanding.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.6308679580688477,
+    "reply": "We're sorry to hear this! Please let us know the email address associated with your account, as well as some info about the issue you're having. Our team will follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "safety_incident",
+    "confidence": 0.5694180130958557,
+    "reply": "We're sorry to hear this. Please let us know the email address associated with your account, as well as some info about the issue you're having. Our team will follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 0.9999998807907104
+  },
+  {
+    "intent": "eats_order",
+    "confidence": 0.638717770576477,
+    "reply": "We're here to help! Please send us a note via so we can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 0.9999999403953552
+  },
+  {
+    "intent": "safety_incident",
+    "confidence": 0.6976423263549805,
+    "reply": "We take this very seriously. Please send us a DM with your email address so we can connect ASAP.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "driver_behavior",
+    "confidence": 0.7384008169174194,
+    "reply": "We're always here to help! Simply click on the 'Help' button in the app to contact us.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "safety_incident",
+    "confidence": 0.7331783771514893,
+    "reply": "We take this very seriously. Please send us a DM with your email address so we can connect ASAP.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.6619240045547485,
+    "reply": "Here to help! Simply follow the link to get a copy of trip's receipt;",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.6564311981201172,
+    "reply": "Sorry to hear that, Kat. Make sure to cancel in this situation. We'd be happy to review any cancellation fees. Please contact us through in app support or this link so we can do so:",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "driver_behavior",
+    "confidence": 0.7235418558120728,
+    "reply": "Sorry to hear about the trouble. Please connect with us at and we'll be happy to follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.000000238418579
+  },
+  {
+    "intent": "wait_time",
+    "confidence": 0.7098401784896851,
+    "reply": "Sorry for the inconvenience! Send us a note via so we can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.6387343406677246,
+    "reply": "Happy to help! Send us a note at so our team can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.000000238418579
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.7184577584266663,
+    "reply": "Hello! Thanks for your patience. Please check your DM for our reply.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 0.9999999403953552
+  },
+  {
+    "intent": "ride_cancellation",
+    "confidence": 0.7254877090454102,
+    "reply": "Sorry to hear about the trouble! Please send us a message at with the details and we'll follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.5366122722625732,
+    "reply": "Hi there! Please reach out to and fill out the 4 boxes at the bottom so we can get in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7203207612037659,
+    "reply": "We can definitely take a closer look! Contact us here; so we can help.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "lost_item",
+    "confidence": 0.5900260806083679,
+    "reply": "We're limited to how much we can explain over social media, due to the character count. DM us your email/phone number and we'll follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "trip_issue",
+    "confidence": 0.6448495388031006,
+    "reply": "Here to help! Send us a note via so our team can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "trip_issue",
+    "confidence": 0.6851085424423218,
+    "reply": "Happy to help, Damon. Please reach out to so we can get in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "driver_behavior",
+    "confidence": 0.7080481052398682,
+    "reply": "We can take a look! Send us a note via so our team can get in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "wait_time",
+    "confidence": 0.6343374252319336,
+    "reply": "We've responded via DM!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7242537140846252,
+    "reply": "Here to help. Send us a note at so our team can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.6531637907028198,
+    "reply": "Happy to help! Send us a note here, and our team will follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "ride_cancellation",
+    "confidence": 0.5694306492805481,
+    "reply": "Hi there! Please reach out to and fill out the 4 boxes at the bottom so we can get in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 0.9999999403953552
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.6682366132736206,
+    "reply": "We see your outreach and a member of our team will be following up via email as soon as possible. We appreciate your patience.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "wait_time",
+    "confidence": 0.7004982233047485,
+    "reply": "Here to help! Send us a note here and our team will be in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "driver_behavior",
+    "confidence": 0.7576857805252075,
+    "reply": "We want to look into this right away. Please send a DM our way with your account email and phone number so we can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7114817500114441,
+    "reply": "Happy to take a closer look! Send us a DM with your email address so we can follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.5898892879486084,
+    "reply": "At this moment, we don't offer phone support for these issues. We're sorry for any inconvenience. Visit",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.658107340335846,
+    "reply": "Hey, Olaoluwa. We don't see anything preventing you from requesting rides. Please DM us with more info so we can better assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.6461926102638245,
+    "reply": "Hey, Kassi. Due to the nature of this issue, we'll be sending you a DM with additional info. Keep an eye out for our message!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.5882378816604614,
+    "reply": "Here to help! Follow up here; and our team will connect right away.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0000001192092896
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.6358057260513306,
+    "reply": "Here to help! Send us a note via to assist you further.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "general_complaint",
+    "confidence": 0.7123398780822754,
+    "reply": "Here to help! Follow up here; and our team will connect right away.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "safety_incident",
+    "confidence": 0.7208094596862793,
+    "reply": "We can definitely take a closer look! Contact us here; so we can help.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "account_access",
+    "confidence": 0.6637543439865112,
+    "reply": "We can definitely take a closer look! Please send us a DM of the email address connected to your account so we can further assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  },
+  {
+    "intent": "payment_billing",
+    "confidence": 0.6629142165184021,
+    "reply": "Here to help. Send us a note at so our team can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "top_retrieval": 1.0
+  }
+]

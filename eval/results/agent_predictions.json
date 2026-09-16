@@ -1,0 +1,2320 @@
+[
+  {
+    "customer_msg": "you’re a terrible service",
+    "intent": "general_complaint",
+    "confidence": 0.9641850590705872,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.004212536849081516,
+    "reply": "Here to help! Please send us a DM with your email address and more info regarding your concern so we can assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.477,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "thanks",
+    "intent": "positive_feedback",
+    "confidence": 0.6002458333969116,
+    "second_intent": "account_access",
+    "second_conf": 0.058498937636613846,
+    "reply": "Hello! Thanks for your patience. Please check your DM for our reply.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (60% < 65%)"
+    ],
+    "sentiment": 0.44,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "We have already emailed 6 Times and no response.",
+    "intent": "account_access",
+    "confidence": 0.3754037022590637,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.1495731621980667,
+    "reply": "We've been in touch via DM!",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access",
+      "Low classifier confidence (38% < 65%)"
+    ],
+    "sentiment": -0.296,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Already done. How long will a response take?",
+    "intent": "lost_item",
+    "confidence": 0.6383950114250183,
+    "second_intent": "trip_issue",
+    "second_conf": 0.0683574229478836,
+    "reply": "Hey there, Ellie. We do respond in order inquiries are received. Please keep an eye out for this update coming your way. Thank you.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (64% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I've sent a dm when can I expect a reply?",
+    "intent": "account_access",
+    "confidence": 0.4686010777950287,
+    "second_intent": "wait_time",
+    "second_conf": 0.12722046673297882,
+    "reply": "We've been in touch via DM. Please keep an eye out for our response.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access",
+      "Low classifier confidence (47% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 0.9999999403953552,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I sent you my info. Anything??",
+    "intent": "account_access",
+    "confidence": 0.4755496382713318,
+    "second_intent": "lost_item",
+    "second_conf": 0.11663434654474258,
+    "reply": "We're following up with you via DM, be on the look out for our response.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access",
+      "Low classifier confidence (48% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "It's been two months now",
+    "intent": "wait_time",
+    "confidence": 0.6112448573112488,
+    "second_intent": "general_complaint",
+    "second_conf": 0.06767067313194275,
+    "reply": "We're sorry to hear about this, Alhashimi. Sign in and visit us at so our team can connect.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (61% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Why are you sending me coupons when I'm not able to apply any for no reason!",
+    "intent": "payment_billing",
+    "confidence": 0.4497428834438324,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.36224231123924255,
+    "reply": "Here to help! Send us a note at so our team can connect.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing",
+      "Low classifier confidence (45% < 65%)"
+    ],
+    "sentiment": -0.359,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "It was real messed up",
+    "intent": "general_complaint",
+    "confidence": 0.9244161248207092,
+    "second_intent": "trip_issue",
+    "second_conf": 0.010095849633216858,
+    "reply": "We've been in touch via DM!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.34,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "YALL HIRE SOME DUMB ASS UBER DRIVERS IN NEW ORLEANS IM FED TF UP",
+    "intent": "general_complaint",
+    "confidence": 0.9289571642875671,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.018918227404356003,
+    "reply": "We're sorry for the trouble. Please contact us via and we'll be in touch.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High negative sentiment (VADER=-0.78 < -0.65)"
+    ],
+    "sentiment": -0.778,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Check DM",
+    "intent": "account_access",
+    "confidence": 0.7083012461662292,
+    "second_intent": "app_technical",
+    "second_conf": 0.13643722236156464,
+    "reply": "We've been in touch via DM!",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "#pm sent",
+    "intent": "app_technical",
+    "confidence": 0.27395501732826233,
+    "second_intent": "wait_time",
+    "second_conf": 0.19764095544815063,
+    "reply": "We have received your DM and will follow up there. Thanks!",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (27% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I forgot uber password",
+    "intent": "account_access",
+    "confidence": 0.9304026961326599,
+    "second_intent": "lost_item",
+    "second_conf": 0.01716335490345955,
+    "reply": "Sorry to hear the trouble, Shiva! You can reset your password here:",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Have followed instructions on the link...",
+    "intent": "app_technical",
+    "confidence": 0.47894853353500366,
+    "second_intent": "trip_issue",
+    "second_conf": 0.17894192039966583,
+    "reply": "We're always here to help! Send us a DM with your email address so we can assist.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (48% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "tell me how this is a near by ride, please.",
+    "intent": "trip_issue",
+    "confidence": 0.7645902633666992,
+    "second_intent": "wait_time",
+    "second_conf": 0.07916959375143051,
+    "reply": "Oh no! Please DM us the email linked to your account so we can look into this for you. We look forward to your response.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.318,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I sent a note via above link as you asked. Please resolve at the earliest",
+    "intent": "lost_item",
+    "confidence": 0.27425476908683777,
+    "second_intent": "trip_issue",
+    "second_conf": 0.18464770913124084,
+    "reply": "We're here to help - DM us the email address connected with your account so our team can look into this further.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (27% < 65%)"
+    ],
+    "sentiment": 0.599,
+    "top_retrieval": 1.0000004768371582,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Replied",
+    "intent": "positive_feedback",
+    "confidence": 0.23212768137454987,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.1055147796869278,
+    "reply": "Hi there! It seems a member of our team has reached out to you. Please check your email and follow up with them there.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (23% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Yoooo why didn’t I get my ride pass this month in my email, y’all are trippin’",
+    "intent": "account_access",
+    "confidence": 0.3098600208759308,
+    "second_intent": "payment_billing",
+    "second_conf": 0.21375815570354462,
+    "reply": "Here to help! Check out for more information.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access",
+      "Low classifier confidence (31% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Do you offer Car Seats in Los Angeles?",
+    "intent": "ride_cancellation",
+    "confidence": 0.8658853769302368,
+    "second_intent": "payment_billing",
+    "second_conf": 0.03866055607795715,
+    "reply": "Car seats are currently only available in select locations. To find out more visit",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Cant use Uber if I cant add a payment method or edit an existing on... #fail",
+    "intent": "app_technical",
+    "confidence": 0.9597078561782837,
+    "second_intent": "account_access",
+    "second_conf": 0.005416049621999264,
+    "reply": "Here to help! Send us a note here; and our team will be able to assist!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.542,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "My delivery just showed up without the drink I paid extra for ☹️",
+    "intent": "eats_order",
+    "confidence": 0.951495885848999,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.005509673617780209,
+    "reply": "Sorry for the trouble! Send us a note here, and our team will be in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.34,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "wanted to try but had issues so never did",
+    "intent": "account_access",
+    "confidence": 0.2096938192844391,
+    "second_intent": "general_complaint",
+    "second_conf": 0.2052968144416809,
+    "reply": "Sorry to hear of the trouble! Please DM us the email address linked to your Uber account and more details so we can further assist.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access",
+      "Low classifier confidence (21% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 0.9999999403953552,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I can't get in touch with uber xchange leasing to schedule a pickup",
+    "intent": "wait_time",
+    "confidence": 0.40485408902168274,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.4013282358646393,
+    "reply": "Happy to take a closer look! Send us your email address with details so we can follow up.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (40% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "the driver didn’t come he canceled it on his own",
+    "intent": "ride_cancellation",
+    "confidence": 0.9606428742408752,
+    "second_intent": "trip_issue",
+    "second_conf": 0.004270785488188267,
+    "reply": "We apologize for the trouble! Please send us a note at and we'll be happy to look into this for you.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.0,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "",
+    "intent": "account_access",
+    "confidence": 0.11771953850984573,
+    "second_intent": "payment_billing",
+    "second_conf": 0.11360333859920502,
+    "reply": "Currently we don't have an option at the airport to schedule a ride. You can request from there when you are planning to leave.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access",
+      "Low classifier confidence (12% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 0.9999997615814209,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Clearly no reciprocation till now",
+    "intent": "general_complaint",
+    "confidence": 0.5507309436798096,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.07124213874340057,
+    "reply": "Sorry for the delay. Our team has followed up with you via email regarding this matter. Our responses can be found both in-app via the Help tab and within the email address associated with your account. Please reply there directly and we will be sure to follow up with you.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (55% < 65%)"
+    ],
+    "sentiment": 0.128,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Wanna explain why I was charged in full for a ride I NEVER TOOK.",
+    "intent": "payment_billing",
+    "confidence": 0.9593237638473511,
+    "second_intent": "trip_issue",
+    "second_conf": 0.004270546603947878,
+    "reply": "Here to help! Send us a note via and we'll be in touch.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing"
+    ],
+    "sentiment": -0.202,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I want to attach my car plz confirm if it is in process",
+    "intent": "lost_item",
+    "confidence": 0.39102405309677124,
+    "second_intent": "wait_time",
+    "second_conf": 0.09163174778223038,
+    "reply": "Here to help! Send us a note at so our team can connect.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (39% < 65%)"
+    ],
+    "sentiment": 0.153,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Hey Uber how do I dispute a cancellation charge?",
+    "intent": "ride_cancellation",
+    "confidence": 0.8677574992179871,
+    "second_intent": "payment_billing",
+    "second_conf": 0.06277376413345337,
+    "reply": "Here to help. Send a note here: so we can connect.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Flagged keywords: dispute"
+    ],
+    "sentiment": -0.402,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "should I continue taking trips ?",
+    "intent": "general_complaint",
+    "confidence": 0.2894871234893799,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.16580671072006226,
+    "reply": "We're aware of the issue and are working to resolve ASAP. We appreciate your patience.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (29% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "i already did but no one get back to me,",
+    "intent": "account_access",
+    "confidence": 0.628605306148529,
+    "second_intent": "lost_item",
+    "second_conf": 0.052815817296504974,
+    "reply": "We were unable to locate a support inquiry with the information you provided. Send us a message via the link previously provided.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access",
+      "Low classifier confidence (63% < 65%)"
+    ],
+    "sentiment": -0.421,
+    "top_retrieval": 0.9999999403953552,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "When your Uber driver makes racist ass comments 😒 #uber",
+    "intent": "driver_behavior",
+    "confidence": 0.9181821942329407,
+    "second_intent": "general_complaint",
+    "second_conf": 0.020366376265883446,
+    "reply": "We take this very seriously. Please send us a DM with your email address so we can connect ASAP.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: driver_behavior",
+      "High negative sentiment (VADER=-0.83 < -0.65)"
+    ],
+    "sentiment": -0.83,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Here to help? I doubt it",
+    "intent": "general_complaint",
+    "confidence": 0.7413780689239502,
+    "second_intent": "app_technical",
+    "second_conf": 0.060794223099946976,
+    "reply": "Hey, Ken. We see your DM and will connect with you there. Thanks!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.052,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "It didn’t help though.",
+    "intent": "general_complaint",
+    "confidence": 0.8168504238128662,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.030831363052129745,
+    "reply": "We've responded via DM!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.402,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "what do you do if you think your Uber driver is on cocaine?",
+    "intent": "safety_incident",
+    "confidence": 0.7277716398239136,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.15830402076244354,
+    "reply": "That doesn't sound right. Please send us a DM with your email address so we can look into this immediately.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "CRITICAL: Safety-related intent (safety_incident) — human required"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "My mail id is __email__",
+    "intent": "account_access",
+    "confidence": 0.9515790343284607,
+    "second_intent": "app_technical",
+    "second_conf": 0.006625579670071602,
+    "reply": "Thank you for that information, Uday. A member of our team has reached out in-app via the Help tab. Our responses can also be found within the email address linked to your account. Please reply either in-app or via email with any additional questions you may have.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Get back 72 rs you wrongly charged and order me a pizza🍕!",
+    "intent": "payment_billing",
+    "confidence": 0.7971656918525696,
+    "second_intent": "eats_order",
+    "second_conf": 0.08361106365919113,
+    "reply": "Sorry for the confusion. Can you please send us a DM of your email address so we can look into this?",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing"
+    ],
+    "sentiment": -0.271,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "What awful service. No phone # or email to contact you.",
+    "intent": "app_technical",
+    "confidence": 0.3778381645679474,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.22270876169204712,
+    "reply": "Here to help! At this moment, we don't offer phone support for these issues. Visit this link so our team can assist.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (38% < 65%)"
+    ],
+    "sentiment": -0.637,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Why did I get charged an extra $18 for a ride?",
+    "intent": "payment_billing",
+    "confidence": 0.9639706015586853,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.004046346992254257,
+    "reply": "Here to help! Send us a note here, and our team will follow up.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing"
+    ],
+    "sentiment": -0.202,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Terrifying",
+    "intent": "safety_incident",
+    "confidence": 0.24842572212219238,
+    "second_intent": "general_complaint",
+    "second_conf": 0.1414519101381302,
+    "reply": "Here to help! Send us a DM with your email address so we can assist.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "CRITICAL: Safety-related intent (safety_incident) — human required"
+    ],
+    "sentiment": -0.572,
+    "top_retrieval": 0.9999999403953552,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Hello my driver is going at 40 km/h on an expressway. Please advise.",
+    "intent": "trip_issue",
+    "confidence": 0.8373156785964966,
+    "second_intent": "wait_time",
+    "second_conf": 0.048892632126808167,
+    "reply": "Here to help! Send us a note via and we'll be in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.318,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Um I emailed y’all twice with no response. Its been a month and some change.",
+    "intent": "wait_time",
+    "confidence": 0.3051035404205322,
+    "second_intent": "account_access",
+    "second_conf": 0.22062179446220398,
+    "reply": "Sorry to hear about the trouble! Please DM us your account email so we can take a closer look into this.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (31% < 65%)"
+    ],
+    "sentiment": -0.296,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Don’t have the account info",
+    "intent": "account_access",
+    "confidence": 0.9652941823005676,
+    "second_intent": "payment_billing",
+    "second_conf": 0.003440500469878316,
+    "reply": "Due to our privacy policy, we will have to speak directly to the account holder. Please have them contact us via",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I was never prompted to tip my driver? Can I still do that.",
+    "intent": "payment_billing",
+    "confidence": 0.49797505140304565,
+    "second_intent": "eats_order",
+    "second_conf": 0.10711755603551865,
+    "reply": "Absolutely. Head over to for info on how to add a tip after your delivery has been completed. Have a great day!",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing",
+      "Low classifier confidence (50% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "How do I️ uber eats",
+    "intent": "eats_order",
+    "confidence": 0.9112707376480103,
+    "second_intent": "general_complaint",
+    "second_conf": 0.01744798570871353,
+    "reply": "Here to help! Follow up here; and our team will connect right away.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "UBER shares promo codes but when u try using them they are showed as invalid.",
+    "intent": "app_technical",
+    "confidence": 0.29387861490249634,
+    "second_intent": "payment_billing",
+    "second_conf": 0.2667248845100403,
+    "reply": "We're here to help! Send us a DM with your email address so we can connect.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (29% < 65%)"
+    ],
+    "sentiment": 0.276,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "DM me. I'm not going through all that admin again.",
+    "intent": "account_access",
+    "confidence": 0.4578881561756134,
+    "second_intent": "general_complaint",
+    "second_conf": 0.13892218470573425,
+    "reply": "Hi, Ivanna, we are happy to assist you. Could you please provide us with the email that is obligated to your account?",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access",
+      "Low classifier confidence (46% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Hey why do I keep getting this error? I just want food!!!",
+    "intent": "eats_order",
+    "confidence": 0.9217769503593445,
+    "second_intent": "app_technical",
+    "second_conf": 0.01633111573755741,
+    "reply": "We're here to help, Kandace! Please send us a DM with your UberEATS account email address and phone number.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.572,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "How do I get in touch for a question?",
+    "intent": "account_access",
+    "confidence": 0.5726699829101562,
+    "second_intent": "app_technical",
+    "second_conf": 0.11931491643190384,
+    "reply": "We're here to help! Send us a DM with your email address and more details so we can follow up.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access",
+      "Low classifier confidence (57% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Yeah. Y'all suck.",
+    "intent": "general_complaint",
+    "confidence": 0.9369508624076843,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.01185218058526516,
+    "reply": "Please DM us your email address, so we can better assist you.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.178,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Please help",
+    "intent": "lost_item",
+    "confidence": 0.24460545182228088,
+    "second_intent": "app_technical",
+    "second_conf": 0.1737583577632904,
+    "reply": "We appreciate your patience, Shoshanna. A member of our team has reached out via email support with an update.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (24% < 65%)"
+    ],
+    "sentiment": 0.612,
+    "top_retrieval": 0.9999999403953552,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Is ride scheduling available in Oxford, MS",
+    "intent": "ride_cancellation",
+    "confidence": 0.5882239937782288,
+    "second_intent": "wait_time",
+    "second_conf": 0.29796314239501953,
+    "reply": "Hi, Devon! If you do not see the car/calendar icon next to the \"Where to\" it probably isn't available at your current location.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (59% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I can not access my account in your app. Help me!",
+    "intent": "account_access",
+    "confidence": 0.9621583819389343,
+    "second_intent": "app_technical",
+    "second_conf": 0.0053418041206896305,
+    "reply": "We're here to help! Send us a note via so our team can assist.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.457,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "hire better drivers",
+    "intent": "positive_feedback",
+    "confidence": 0.9066318273544312,
+    "second_intent": "general_complaint",
+    "second_conf": 0.011459533125162125,
+    "reply": "We're here to help! Send us a DM with your email address and more details of your concern so we can follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.44,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "can someone from UberEATS dm me Asap please",
+    "intent": "ride_cancellation",
+    "confidence": 0.24139203131198883,
+    "second_intent": "payment_billing",
+    "second_conf": 0.1317933350801468,
+    "reply": "Hi - here to help. Please DM us the details of your question or concern so we may follow up with you on this.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (24% < 65%)"
+    ],
+    "sentiment": 0.318,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "9560064109 and __email__",
+    "intent": "account_access",
+    "confidence": 0.6522758603096008,
+    "second_intent": "wait_time",
+    "second_conf": 0.06489104777574539,
+    "reply": "Here to help! Send us a note here; and our team will be able to help.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Hey can you please explain to me why you froze my account..",
+    "intent": "account_access",
+    "confidence": 0.9574649333953857,
+    "second_intent": "app_technical",
+    "second_conf": 0.00518636591732502,
+    "reply": "We're here to help! Send us a note here, and so our team will assist.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.318,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Sent all details. I hope this would be resolved.",
+    "intent": "lost_item",
+    "confidence": 0.28445178270339966,
+    "second_intent": "account_access",
+    "second_conf": 0.19856880605220795,
+    "reply": "Thanks, Prateek. We'll be following up via the in-app support. Please keep an eye on the \"Help\" section of your app for our reply.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (28% < 65%)"
+    ],
+    "sentiment": 0.557,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "You really have to stop giving us drivers that are too far away ugh",
+    "intent": "wait_time",
+    "confidence": 0.46434465050697327,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.2987183928489685,
+    "reply": "Sorry to hear about the troubles, Alfon. Please send us a note at so we can look into this for you.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (46% < 65%)"
+    ],
+    "sentiment": -0.434,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I love when gets 2 minutes from your house then cancels. 🙄",
+    "intent": "ride_cancellation",
+    "confidence": 0.38205575942993164,
+    "second_intent": "positive_feedback",
+    "second_conf": 0.24295766651630402,
+    "reply": "We're here to help! Send us a note here, and so our team will assist.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (38% < 65%)"
+    ],
+    "sentiment": 0.511,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I never got in this cab?? Wtf? I've been charged a fiver for a 6 second journey I didnt take??",
+    "intent": "payment_billing",
+    "confidence": 0.32899779081344604,
+    "second_intent": "general_complaint",
+    "second_conf": 0.12582017481327057,
+    "reply": "Sorry to hear about that! Can you please contact us via so our team can connect?",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing",
+      "Low classifier confidence (33% < 65%)",
+      "High negative sentiment (VADER=-0.76 < -0.65)"
+    ],
+    "sentiment": -0.762,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "can you add Thornton Heath station to your gps please so I can actually get picked up there instead of iceland",
+    "intent": "wait_time",
+    "confidence": 0.9509449005126953,
+    "second_intent": "trip_issue",
+    "second_conf": 0.009260935708880424,
+    "reply": "Happy to help! Please reach out to and fill out the 4 boxes at the bottom so we can get in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.318,
+    "top_retrieval": 0.9999996423721313,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "charging an extra 50£ cleaning fee when no mess was made 😩 daylight robbery 🙃 first an last ride with them 👋🏽",
+    "intent": "payment_billing",
+    "confidence": 0.6113991737365723,
+    "second_intent": "general_complaint",
+    "second_conf": 0.09473065286874771,
+    "reply": "Here to help! Send us a note via and we'll be in touch.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing",
+      "Low classifier confidence (61% < 65%)"
+    ],
+    "sentiment": 0.496,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "just charged me $20 for an order that never arrived but says it did. 🤔 Y'all betta fix. this. Now.",
+    "intent": "eats_order",
+    "confidence": 0.9405314922332764,
+    "second_intent": "lost_item",
+    "second_conf": 0.0077158366329967976,
+    "reply": "Here to help. Send us a note at so our team can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.103,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "pl RT this and spread problem.thnk you.the charge I was ready to pay double normal due to peak hr chgs",
+    "intent": "payment_billing",
+    "confidence": 0.9167043566703796,
+    "second_intent": "trip_issue",
+    "second_conf": 0.012878107838332653,
+    "reply": "Here to help! Please send us a note at and we'll be happy to look into this for you.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing"
+    ],
+    "sentiment": 0.273,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I did not expect such awful service from Uber. I have already rated the driver 1 star.",
+    "intent": "general_complaint",
+    "confidence": 0.9489719271659851,
+    "second_intent": "positive_feedback",
+    "second_conf": 0.008570962585508823,
+    "reply": "We've been in touch via DM!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.357,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "ordered food via the app, as its due to arrive the driver CANCELLED my order. What is going on.",
+    "intent": "eats_order",
+    "confidence": 0.9462012648582458,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.007039854768663645,
+    "reply": "Here to help! Send us a note at so our team can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.408,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I just love it when my driver takes 15 minutes to make a 3 minute drive to pick me up because following a map is SO hard.",
+    "intent": "wait_time",
+    "confidence": 0.44024786353111267,
+    "second_intent": "positive_feedback",
+    "second_conf": 0.33631566166877747,
+    "reply": "We're sorry to hear this was your experience. Kindly contact us via and we'll be in touch.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (44% < 65%)"
+    ],
+    "sentiment": 0.344,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "your driver is stuck but refuses to cancel. I am missing my appointment because of your shit service.",
+    "intent": "ride_cancellation",
+    "confidence": 0.8907082676887512,
+    "second_intent": "general_complaint",
+    "second_conf": 0.019209517166018486,
+    "reply": "Hey Ivanna, please reach out with the details at so we can connect.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High negative sentiment (VADER=-0.89 < -0.65)"
+    ],
+    "sentiment": -0.893,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Love it when cancel on me and then charge me £4 cancellation fee too! Nearly missed my train 😡",
+    "intent": "ride_cancellation",
+    "confidence": 0.9460177421569824,
+    "second_intent": "general_complaint",
+    "second_conf": 0.010024038143455982,
+    "reply": "Sorry about that! Please send us a note at and we'll be happy to look into this for you.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.316,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "We've already done all this and still no response. This was our last resort, anyway to talk to someone and not a bot?",
+    "intent": "app_technical",
+    "confidence": 0.25430405139923096,
+    "second_intent": "account_access",
+    "second_conf": 0.25111499428749084,
+    "reply": "We'd be glad to take a second look at your support inquiry and follow up right away, Steph! Please send us a DM with your email address.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (25% < 65%)"
+    ],
+    "sentiment": -0.296,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Just got my entire order refunded because they forgot my rice and beans with my burrito 10/10 customer service!",
+    "intent": "eats_order",
+    "confidence": 0.9364637136459351,
+    "second_intent": "general_complaint",
+    "second_conf": 0.010474741458892822,
+    "reply": "Sorry to hear what happened. Please send us a note here; and our team will get in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.0,
+    "top_retrieval": 0.9999998211860657,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "My uber driver just forced me to add him on animal crossing and he said if I don't he won't drop me off",
+    "intent": "ride_cancellation",
+    "confidence": 0.6967383623123169,
+    "second_intent": "safety_incident",
+    "second_conf": 0.05827240273356438,
+    "reply": "We want to follow up ASAP. Can you please send us a DM with your email address and additional details so we can connect?",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.595,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I just signed up to and it's telling me \"rider.account_banned\" .. what does that actually mean please .. now I'm late 🙄😡😡😡",
+    "intent": "account_access",
+    "confidence": 0.9083107113838196,
+    "second_intent": "app_technical",
+    "second_conf": 0.029816649854183197,
+    "reply": "Here to help! Send us a note here; our team will be able to assist!",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.318,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "First experiencd with Eats Baaad Dtiver didn't deliver full order. Complained via appno response!!!",
+    "intent": "eats_order",
+    "confidence": 0.9517086744308472,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.006117323879152536,
+    "reply": "That doesn't sound right. Can you please send us a DM with your email address so we can look into this?",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.554,
+    "top_retrieval": 1.0000004768371582,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Why is it illegal to leave an uber and get another one if you driver gets pulled over and getting a ticket?",
+    "intent": "safety_incident",
+    "confidence": 0.37664994597435,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.27620387077331543,
+    "reply": "We want to follow up ASAP. Can you please send us a DM with your email address and additional details so we can connect?",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "CRITICAL: Safety-related intent (safety_incident) — human required"
+    ],
+    "sentiment": -0.586,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "seriously!? Apparently ubers are only for day time...seriously bad service as o late",
+    "intent": "general_complaint",
+    "confidence": 0.6084030866622925,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.17413724958896637,
+    "reply": "We're so sorry for the trouble. Send us a note via so we can assist.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (61% < 65%)",
+      "High negative sentiment (VADER=-0.67 < -0.65)"
+    ],
+    "sentiment": -0.67,
+    "top_retrieval": 0.9999996423721313,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "my order was cancelled today AFTER the food was already made (I've called the restaurant) now what?",
+    "intent": "eats_order",
+    "confidence": 0.9541910886764526,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.006572057493031025,
+    "reply": "We're so sorry for the trouble. Send us a note via so we can assist.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.25,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Your gas card screw up cost a ton of drivers to stop driving for you. Me included.",
+    "intent": "payment_billing",
+    "confidence": 0.47267061471939087,
+    "second_intent": "general_complaint",
+    "second_conf": 0.24721843004226685,
+    "reply": "Here to help! Send us a note here, and our team will follow up.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing",
+      "Low classifier confidence (47% < 65%)"
+    ],
+    "sentiment": -0.382,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "HELLO?! A driver unjustly charged me a CLEANING FEE when NOTHING HAPPENED! I demand proof for this charge!",
+    "intent": "payment_billing",
+    "confidence": 0.8235482573509216,
+    "second_intent": "safety_incident",
+    "second_conf": 0.04501930996775627,
+    "reply": "We apologize for the trouble! We're currently reviewing your email and will connect right away.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing"
+    ],
+    "sentiment": -0.32,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I’m fucking stuck at LAX because your drivers won’t take me home because they don’t want my business. I’m so mad.",
+    "intent": "ride_cancellation",
+    "confidence": 0.8343297243118286,
+    "second_intent": "wait_time",
+    "second_conf": 0.049451153725385666,
+    "reply": "We're here to help! Send us your email address and more details so we can follow up.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High negative sentiment (VADER=-0.73 < -0.65)"
+    ],
+    "sentiment": -0.728,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I’m so fucking tired of . Yesterday I changed my destination; and they charged me twice for that trip.",
+    "intent": "trip_issue",
+    "confidence": 0.41713768243789673,
+    "second_intent": "general_complaint",
+    "second_conf": 0.16159643232822418,
+    "reply": "Here to help! Follow up here; and our team will connect right away.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (42% < 65%)"
+    ],
+    "sentiment": -0.645,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "How do I contact a driver after a trip has been completed? my brother left his phone.",
+    "intent": "lost_item",
+    "confidence": 0.9299987554550171,
+    "second_intent": "account_access",
+    "second_conf": 0.01278509758412838,
+    "reply": "Due to our privacy policy, we will have to speak directly to the account holder. Please have them contact us via",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.0,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "hi I seem to have been charged a cancellation fee for a car that never accepted, looked on already",
+    "intent": "ride_cancellation",
+    "confidence": 0.9050408601760864,
+    "second_intent": "payment_billing",
+    "second_conf": 0.036157045513391495,
+    "reply": "Happy to help, Ashley. Send us a DM with your account email address + trip details and we'll be in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.385,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "my Payment profile says that it cannot be verified. How do I fix this? Have had to create another account to order an Uber",
+    "intent": "account_access",
+    "confidence": 0.9663583636283875,
+    "second_intent": "payment_billing",
+    "second_conf": 0.0034912251867353916,
+    "reply": "Here to help! Please send us a DM with your email address and more info regarding your concern so we can assist.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.273,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Any update, im following you guys from so long, but no one cares about the customer, uber is really worst.",
+    "intent": "general_complaint",
+    "confidence": 0.9495130181312561,
+    "second_intent": "positive_feedback",
+    "second_conf": 0.008393906988203526,
+    "reply": "Thanks for reaching back out to us about this, Anuj. However, any and all updates will be found via in-app support. We suggest at this time you go there where we have messaged you. Please follow up with that message. We look forward to your reply.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High negative sentiment (VADER=-0.93 < -0.65)"
+    ],
+    "sentiment": -0.931,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "My for business account isn’t working and no means of resolving it would seem - need help Uber pls",
+    "intent": "account_access",
+    "confidence": 0.9653540253639221,
+    "second_intent": "app_technical",
+    "second_conf": 0.003719685599207878,
+    "reply": "Thanks for reaching out, Ant, we're happy to help! Go ahead and DM us your Uber account email and the details of the issue. We'll follow up.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.571,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "We are going to St. Lukes for my Aunt’s PET SCAN but your driver didn’t bother to call us what happened. Calling #LTFRB",
+    "intent": "trip_issue",
+    "confidence": 0.3292165696620941,
+    "second_intent": "wait_time",
+    "second_conf": 0.28023606538772583,
+    "reply": "So sorry about the trouble! Please send us a note here: and a member of our team will follow up asap.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (33% < 65%)"
+    ],
+    "sentiment": -0.477,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I am SO DONE using your services. This is the 2nd time I’ve received a $150 charge from a driver. For No reason.",
+    "intent": "general_complaint",
+    "confidence": 0.6886540055274963,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.1016656681895256,
+    "reply": "Hi there! We see your outreach and a member of our team will be following up via email as soon as possible. We appreciate your patience.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.296,
+    "top_retrieval": 0.9999997615814209,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Question . I'm in Christchurch, New Zealand and can't find a driver, as no drivers are showing up. Is this an issue?",
+    "intent": "ride_cancellation",
+    "confidence": 0.7334181666374207,
+    "second_intent": "wait_time",
+    "second_conf": 0.13618412613868713,
+    "reply": "We can take a look! Send us a note via so our team can get in touch.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.296,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Tell your driver to cancel my ride ! It says I’m on a ride, I am obviously still waiting ...",
+    "intent": "wait_time",
+    "confidence": 0.661273181438446,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.23052634298801422,
+    "reply": "We apologize for the trouble! We're currently reviewing your email and will connect right away. We appreciate your patience.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.316,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "u should never charge a fee for canceling instantly esp when it is ur bad estimate. It is stealing!!!!",
+    "intent": "ride_cancellation",
+    "confidence": 0.8843555450439453,
+    "second_intent": "general_complaint",
+    "second_conf": 0.04359843581914902,
+    "reply": "We'd like to look into this. Please send us a note at and a member of our team will follow up.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High negative sentiment (VADER=-0.85 < -0.65)"
+    ],
+    "sentiment": -0.854,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "How do I check out my balance from refunds ? Also you have a real problem in #Miami airport.",
+    "intent": "payment_billing",
+    "confidence": 0.9074087142944336,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.019854221493005753,
+    "reply": "Here to help. Send us a note at so our team can connect.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing"
+    ],
+    "sentiment": -0.402,
+    "top_retrieval": 1.0000004768371582,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "So yesterday my Uber driver cancels on me last minute and then I get charged £4???? what is going on?",
+    "intent": "ride_cancellation",
+    "confidence": 0.646206259727478,
+    "second_intent": "payment_billing",
+    "second_conf": 0.2191316783428192,
+    "reply": "That's definitely not okay. Please send us a note at so we can connect right away.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (65% < 65%)"
+    ],
+    "sentiment": -0.604,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Omg my Uber eats cyclist has actually gone to the other side of the city, and has just ridden past the restaurant again :)",
+    "intent": "trip_issue",
+    "confidence": 0.7600815892219543,
+    "second_intent": "app_technical",
+    "second_conf": 0.0598958283662796,
+    "reply": "Hi there! Please visit; for more info. Please let us know if you have any other questions or concerns.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.459,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Hey, I seem to be having a problem with the Ubereats checkout - I can add items to the cart but the checkout never loads.",
+    "intent": "app_technical",
+    "confidence": 0.7795085310935974,
+    "second_intent": "eats_order",
+    "second_conf": 0.040655359625816345,
+    "reply": "Let us look into this, Gerard. Please send us a DM so we can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.214,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Ugh - you owe me money and you disabled my account... your customer service is appalling... #notcool 😒",
+    "intent": "general_complaint",
+    "confidence": 0.8537693023681641,
+    "second_intent": "account_access",
+    "second_conf": 0.03654582053422928,
+    "reply": "That doesn't sound right. Can you please send us a DM with your email and more details so we can look into this?",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.649,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "how is I can deliver for restaurant last night, then today, can't find them in the app to order my own food??? WTF",
+    "intent": "eats_order",
+    "confidence": 0.7502990961074829,
+    "second_intent": "app_technical",
+    "second_conf": 0.08512825518846512,
+    "reply": "Sorry to hear that, Alan! Please send us a note with your delivery address and the restaurant details at so we can look into this further for you.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High negative sentiment (VADER=-0.72 < -0.65)"
+    ],
+    "sentiment": -0.725,
+    "top_retrieval": 0.9999999403953552,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "what is wrong with your safety? Am in London and taking rides in Bangladesh? Common!! Please help . Shame on you",
+    "intent": "safety_incident",
+    "confidence": 0.7726221084594727,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.03801841661334038,
+    "reply": "We'd like to assist ASAP, Rodolfo! Please reach out to us directly at the link provided in our last message so we can put you in touch with our team of account specialists.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "CRITICAL: Safety-related intent (safety_incident) — human required"
+    ],
+    "sentiment": 0.37,
+    "top_retrieval": 0.9999997615814209,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Hi I have mistakenly dropped my phone last night inside uber, this phone is only 3 days old. I dropped you DM.",
+    "intent": "lost_item",
+    "confidence": 0.9327919483184814,
+    "second_intent": "safety_incident",
+    "second_conf": 0.013859283179044724,
+    "reply": "We've responded to your DM, Mphikeleli!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.296,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "left phone in uber. Can't sign into account as it wants verification code from lost phone! Help!!!",
+    "intent": "lost_item",
+    "confidence": 0.7494903802871704,
+    "second_intent": "account_access",
+    "second_conf": 0.1472640037536621,
+    "reply": "We're here to help! Please send us a DM with your email address so we can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.375,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Excuse meeee I took so many rides last month and still haven't gotten offered an uber pass 😢",
+    "intent": "ride_cancellation",
+    "confidence": 0.6453942060470581,
+    "second_intent": "payment_billing",
+    "second_conf": 0.12894368171691895,
+    "reply": "Hi there! Find out more info about ride pass on this link;",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (65% < 65%)"
+    ],
+    "sentiment": -0.473,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Had to break character from “i don’t speak Spanish” so this driver wouldn’t kill me and take the right exit on the hwy.",
+    "intent": "trip_issue",
+    "confidence": 0.5491563677787781,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.1622045785188675,
+    "reply": "Here to further assist you! Send us a DM with your email address so we can follow up.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (55% < 65%)",
+      "High negative sentiment (VADER=-0.69 < -0.65)"
+    ],
+    "sentiment": -0.691,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "gah! it won't let me! it says that i have already rated him. is there any way i can change it? or leave him a message?",
+    "intent": "app_technical",
+    "confidence": 0.5399670004844666,
+    "second_intent": "account_access",
+    "second_conf": 0.3033195734024048,
+    "reply": "We'd be happy to clarify. We're not able to change the rating after it has been submitted. We appreciate your understanding.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (54% < 65%)"
+    ],
+    "sentiment": -0.283,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "are the worst people\\comany I have ever dealt with! Never again cancelled both accounts",
+    "intent": "general_complaint",
+    "confidence": 0.9284560084342957,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.014607400633394718,
+    "reply": "We're sorry to hear this! Please let us know the email address associated with your account, as well as some info about the issue you're having. Our team will follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.565,
+    "top_retrieval": 0.9999999403953552,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I am so angry I will make sure everyone knows about the \"support\" I received today.",
+    "intent": "general_complaint",
+    "confidence": 0.558976948261261,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.10201023519039154,
+    "reply": "We're sorry to hear this. Please let us know the email address associated with your account, as well as some info about the issue you're having. Our team will follow up.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (56% < 65%)"
+    ],
+    "sentiment": -0.062,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Hi an American Discount has just worked on my food order but I’m in the UK? Is that okay?",
+    "intent": "eats_order",
+    "confidence": 0.9405776858329773,
+    "second_intent": "payment_billing",
+    "second_conf": 0.009069214574992657,
+    "reply": "We're here to help! Please send us a note via so we can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.404,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I’m pretty sure my Uber Driver is drunk off his ass right now nearly took out a few mailboxes",
+    "intent": "driver_behavior",
+    "confidence": 0.7617530822753906,
+    "second_intent": "safety_incident",
+    "second_conf": 0.06356997787952423,
+    "reply": "We take this very seriously. Please send us a DM with your email address so we can connect ASAP.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: driver_behavior"
+    ],
+    "sentiment": -0.169,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Hi I have a complaint about a driver of a recent trip of mine. Where can I complain about him?",
+    "intent": "driver_behavior",
+    "confidence": 0.8532007932662964,
+    "second_intent": "general_complaint",
+    "second_conf": 0.027926946058869362,
+    "reply": "We're always here to help! Simply click on the 'Help' button in the app to contact us.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: driver_behavior"
+    ],
+    "sentiment": -0.572,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "response after I was assaulted and stalked by a male driver last night. A free $10 ride. Maybe a call. Despicable!",
+    "intent": "safety_incident",
+    "confidence": 0.8950883150100708,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.018981140106916428,
+    "reply": "We take this very seriously. Please send us a DM with your email address so we can connect ASAP.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "CRITICAL: Safety-related intent (safety_incident) — human required"
+    ],
+    "sentiment": -0.101,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I am not getting receipts of my trip for quite sometime now. Can you please fix this?",
+    "intent": "payment_billing",
+    "confidence": 0.6471502780914307,
+    "second_intent": "lost_item",
+    "second_conf": 0.19166164100170135,
+    "reply": "Here to help! Simply follow the link to get a copy of trip's receipt;",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing",
+      "Low classifier confidence (65% < 65%)"
+    ],
+    "sentiment": 0.318,
+    "top_retrieval": 0.9999999403953552,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "It went from a 5 min wait when she was close by to 19 min ... and if I cancel you’ll charge me. How is this ok?",
+    "intent": "ride_cancellation",
+    "confidence": 0.7716795206069946,
+    "second_intent": "wait_time",
+    "second_conf": 0.13099484145641327,
+    "reply": "Sorry to hear that, Kat. Make sure to cancel in this situation. We'd be happy to review any cancellation fees. Please contact us through in app support or this link so we can do so:",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.25,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "so my driver decided to ignore all my calls, went from 2 min away to 10 min away and cancelled 15 minutes later",
+    "intent": "ride_cancellation",
+    "confidence": 0.94187331199646,
+    "second_intent": "wait_time",
+    "second_conf": 0.01400446891784668,
+    "reply": "Sorry to hear about the trouble. Please connect with us at and we'll be happy to follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.542,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "how can the app allot a cab thats about 20 mins away and show 11 mins. Any sense in this? #disgusted #terribleservice",
+    "intent": "wait_time",
+    "confidence": 0.6854004263877869,
+    "second_intent": "app_technical",
+    "second_conf": 0.11913125962018967,
+    "reply": "Sorry for the inconvenience! Send us a note via so we can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.612,
+    "top_retrieval": 0.9999997615814209,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I don't seem able to verify my phone number, tried texting 827222 but it won't send? Didn't receive any text on sign up.",
+    "intent": "account_access",
+    "confidence": 0.8885542750358582,
+    "second_intent": "app_technical",
+    "second_conf": 0.019065039232373238,
+    "reply": "Happy to help! Send us a note at so our team can connect.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.039,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Payment for earlier ride done but still showing outstanding. Unable to book new ride. Please resolve.",
+    "intent": "payment_billing",
+    "confidence": 0.9483878016471863,
+    "second_intent": "app_technical",
+    "second_conf": 0.006584841758012772,
+    "reply": "Hello! Thanks for your patience. Please check your DM for our reply.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing"
+    ],
+    "sentiment": 0.916,
+    "top_retrieval": 0.9999999403953552,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "A driver didn’t turn up or respond, I had to cancel him to re-book another driver. How do I get cancellation fee refunded?",
+    "intent": "ride_cancellation",
+    "confidence": 0.9219683408737183,
+    "second_intent": "payment_billing",
+    "second_conf": 0.02797294780611992,
+    "reply": "Sorry to hear about the trouble! Please send us a message at with the details and we'll follow up.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": -0.25,
+    "top_retrieval": 0.9999999403953552,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Can you send me any texts in English? Thank you. John Jaffe 6106578576 __email__",
+    "intent": "driver_behavior",
+    "confidence": 0.2112094759941101,
+    "second_intent": "positive_feedback",
+    "second_conf": 0.1476295441389084,
+    "reply": "Hi there! Please reach out to and fill out the 4 boxes at the bottom so we can get in touch.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: driver_behavior",
+      "Low classifier confidence (21% < 65%)"
+    ],
+    "sentiment": 0.361,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Please unblock my account .. my number 8983298106.. I am not able to book through Uber app",
+    "intent": "account_access",
+    "confidence": 0.9550923109054565,
+    "second_intent": "app_technical",
+    "second_conf": 0.009240696206688881,
+    "reply": "We can definitely take a closer look! Contact us here; so we can help.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.382,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Ok. Not had a response yet. Have here. But not after the form filling. You should help people here. You respond faster ;)",
+    "intent": "account_access",
+    "confidence": 0.296744167804718,
+    "second_intent": "app_technical",
+    "second_conf": 0.14030036330223083,
+    "reply": "We're limited to how much we can explain over social media, due to the character count. DM us your email/phone number and we'll follow up.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access",
+      "Low classifier confidence (30% < 65%)"
+    ],
+    "sentiment": 0.71,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Hey please fix the location bug from the #app. The #car location remains back versus actual #location.",
+    "intent": "trip_issue",
+    "confidence": 0.6711556315422058,
+    "second_intent": "app_technical",
+    "second_conf": 0.16821448504924774,
+    "reply": "Here to help! Send us a note via so our team can connect.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.318,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "how is it possible that I was the closest driver to this location but in a surge area I can’t get a request?",
+    "intent": "trip_issue",
+    "confidence": 0.3173799514770508,
+    "second_intent": "wait_time",
+    "second_conf": 0.27863144874572754,
+    "reply": "Happy to help, Damon. Please reach out to so we can get in touch.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (32% < 65%)"
+    ],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "My uber driver is on the phone and has it on Bluetooth/speaker and it is honestly so rude",
+    "intent": "driver_behavior",
+    "confidence": 0.9541928172111511,
+    "second_intent": "positive_feedback",
+    "second_conf": 0.006091713905334473,
+    "reply": "We can take a look! Send us a note via so our team can get in touch.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: driver_behavior"
+    ],
+    "sentiment": -0.218,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I responded to your dm 5 hours ago. It's been 30 hours since I submitted help request. What is the issue?",
+    "intent": "app_technical",
+    "confidence": 0.7074014544487,
+    "second_intent": "trip_issue",
+    "second_conf": 0.05673988163471222,
+    "reply": "We've responded via DM!",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.402,
+    "top_retrieval": 0.9999999403953552,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "hey there! I keep getting someone else's Uber emails - and it is getting a little bit annoying. Please let me know?",
+    "intent": "account_access",
+    "confidence": 0.7488836050033569,
+    "second_intent": "general_complaint",
+    "second_conf": 0.04368678107857704,
+    "reply": "Here to help. Send us a note at so our team can connect.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Flagged keywords: someone else"
+    ],
+    "sentiment": -0.172,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "someone keeps trying to hack into my account. Can you disable my account or block the device?",
+    "intent": "account_access",
+    "confidence": 0.9616333842277527,
+    "second_intent": "app_technical",
+    "second_conf": 0.004710556007921696,
+    "reply": "Happy to help! Send us a note here, and our team will follow up.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": -0.44,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "... your GENERAL AVIATION at is missing an option - please add Dulles Jet Center. Very frustrating when we get home.",
+    "intent": "ride_cancellation",
+    "confidence": 0.515235424041748,
+    "second_intent": "trip_issue",
+    "second_conf": 0.13540543615818024,
+    "reply": "Hi there! Please reach out to and fill out the 4 boxes at the bottom so we can get in touch.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (52% < 65%)"
+    ],
+    "sentiment": -0.475,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Was is going on? My fare last night was too much see attached screenshots. 1/2.",
+    "intent": "general_complaint",
+    "confidence": 0.6544480323791504,
+    "second_intent": "eats_order",
+    "second_conf": 0.10557664185762405,
+    "reply": "Happy to take a closer look! Send us a DM with your email address so we can assist you.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.0,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "drivers never show up for long should have better drivers. Driver call, ask location and never respond",
+    "intent": "driver_behavior",
+    "confidence": 0.30204176902770996,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.24586538970470428,
+    "reply": "Here to help! Send us a note here and our team will be in touch.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: driver_behavior",
+      "Low classifier confidence (30% < 65%)"
+    ],
+    "sentiment": 0.44,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "one of your drivers harrassed me and asked for my number multiple times. I felt very uncomfortable. How do we fix this?",
+    "intent": "safety_incident",
+    "confidence": 0.4701109528541565,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.36881178617477417,
+    "reply": "We want to look into this right away. Please send a DM our way with your account email and phone number so we can connect.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "CRITICAL: Safety-related intent (safety_incident) — human required"
+    ],
+    "sentiment": -0.38,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "ride pass not at all working. Making me fool &amp; charged full fair. Over tat help is pathetic",
+    "intent": "trip_issue",
+    "confidence": 0.4404265582561493,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.22497063875198364,
+    "reply": "Happy to take a closer look! Send us a DM with your email address so we can follow up.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (44% < 65%)"
+    ],
+    "sentiment": -0.527,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "I need to speak with someone about an issue with my payments, but can't find a CS phone number. What is your CS number?",
+    "intent": "account_access",
+    "confidence": 0.48115378618240356,
+    "second_intent": "payment_billing",
+    "second_conf": 0.2062336951494217,
+    "reply": "At this moment, we don't offer phone support for these issues. We're sorry for any inconvenience. Visit",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access",
+      "Low classifier confidence (48% < 65%)"
+    ],
+    "sentiment": 0.226,
+    "top_retrieval": 1.000000238418579,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "Please fix my card and debit whatever it is I owe. Account is funded for this. Thank you.",
+    "intent": "payment_billing",
+    "confidence": 0.5588008165359497,
+    "second_intent": "account_access",
+    "second_conf": 0.28891491889953613,
+    "reply": "Hey, Olaoluwa. We don't see anything preventing you from requesting rides. Please DM us with more info so we can better assist.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing",
+      "Low classifier confidence (56% < 65%)"
+    ],
+    "sentiment": 0.634,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "There are supposed to be credits on my account that I BOUGHT and have NOT USED. Please re-add my credits.",
+    "intent": "payment_billing",
+    "confidence": 0.7328264713287354,
+    "second_intent": "account_access",
+    "second_conf": 0.16641302406787872,
+    "reply": "Hey, Kassi. Due to the nature of this issue, we'll be sending you a DM with additional info. Keep an eye out for our message!",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing"
+    ],
+    "sentiment": 0.466,
+    "top_retrieval": 0.9999998211860657,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "what kind of a service you are providing yaar, we can’t call and we cannot complain, you morons..",
+    "intent": "general_complaint",
+    "confidence": 0.9335256814956665,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.012957836501300335,
+    "reply": "Here to help! Follow up here; and our team will connect right away.",
+    "action": "auto",
+    "escalate": false,
+    "reasons": [],
+    "sentiment": 0.472,
+    "top_retrieval": 1.0,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "So my pool decided it wasn’t gonna stop the car to let me in, but charge me for the trip anyway. Eff you Aftab.",
+    "intent": "ride_cancellation",
+    "confidence": 0.426938533782959,
+    "second_intent": "payment_billing",
+    "second_conf": 0.38353613018989563,
+    "reply": "Sorry for the confusion! You can use this link instead; so our team can connect.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "Low classifier confidence (43% < 65%)"
+    ],
+    "sentiment": -0.153,
+    "top_retrieval": 1.0000003576278687,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "hi, my phone's been tampered with and now I can't access my Uber account. Can you please help?",
+    "intent": "account_access",
+    "confidence": 0.9663065075874329,
+    "second_intent": "lost_item",
+    "second_conf": 0.004180092364549637,
+    "reply": "Here to help! Follow up here; and our team will connect right away.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.612,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "had a ride we wanted to talk to you about. Our driver stopped to assist unrelated injury accident requiring 911. #raleigh",
+    "intent": "safety_incident",
+    "confidence": 0.903660237789154,
+    "second_intent": "driver_behavior",
+    "second_conf": 0.01334884949028492,
+    "reply": "We can definitely take a closer look! Contact us here; so we can help.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "CRITICAL: Safety-related intent (safety_incident) — human required"
+    ],
+    "sentiment": -0.778,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "HELP A BROTHER OUT AND RESTORE MY ACCOUNT... I've sent emails to figure out what's going on. What's the number to call??",
+    "intent": "account_access",
+    "confidence": 0.9603443145751953,
+    "second_intent": "app_technical",
+    "second_conf": 0.004770824685692787,
+    "reply": "We can definitely take a closer look! Please send us a DM of the email address connected to your account so we can further assist.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: account_access"
+    ],
+    "sentiment": 0.792,
+    "top_retrieval": 0.9999998807907104,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  },
+  {
+    "customer_msg": "As if charged me £4 last night when the taxi didn't even turn up to where I was",
+    "intent": "payment_billing",
+    "confidence": 0.855309247970581,
+    "second_intent": "ride_cancellation",
+    "second_conf": 0.020351191982626915,
+    "reply": "Here to help. Send us a note at so our team can connect.",
+    "action": "escalate",
+    "escalate": true,
+    "reasons": [
+      "High-risk intent: payment_billing"
+    ],
+    "sentiment": -0.202,
+    "top_retrieval": 1.0000001192092896,
+    "model_used": "llama-3.1-8b-instant",
+    "n_retrieved": 5
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "system": "Baseline 2 (Cosine NN)",
+  "n": 140,
+  "intent": {
+    "accuracy": 0.4857,
+    "macro_f1": 0.429
+  },
+  "escalation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "rouge_l": 0.9789
+}

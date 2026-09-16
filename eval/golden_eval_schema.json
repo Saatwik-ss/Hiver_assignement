@@ -1,0 +1,29 @@
+{
+  "description": "Golden evaluation set for Uber Support AI Agent",
+  "fields": {
+    "thread_id": "Unique conversation ID from TWCS",
+    "customer_msg": "Cleaned customer message (no @mentions/URLs)",
+    "customer_raw": "Original raw tweet text",
+    "actual_agent_reply": "What Uber actually replied in the dataset",
+    "ground_truth_intent": "Correct intent label (from your defined taxonomy)",
+    "ground_truth_escalate": "bool \u2014 should a human agent handle this?",
+    "escalation_reason": "String reason for escalation (null if auto)",
+    "reference_reply": "Ideal reply you'd want the agent to send (can match actual_agent_reply)",
+    "human_quality_score": "int 1-5 \u2014 quality of actual_agent_reply (1=terrible, 5=excellent)",
+    "_stratum": "easy/medium/hard/positive_feedback \u2014 for analysis"
+  },
+  "intent_taxonomy": {
+    "trip_issue": "Wrong route, bad GPS, navigation, driver went wrong way",
+    "payment_billing": "Overcharge, refund, promo not applied, double charge",
+    "driver_behavior": "Rude, unprofessional, aggressive driver",
+    "safety_incident": "Accident, assault, harassment, threatening \u2014 ALWAYS ESCALATE",
+    "account_access": "Login issues, account suspended, password reset",
+    "app_technical": "App crash, surge pricing bug, booking failure",
+    "ride_cancellation": "Driver cancelled, can't find driver, excessive surge",
+    "lost_item": "Left item in car, need to contact driver",
+    "wait_time": "Driver taking too long, ETA wrong",
+    "eats_order": "Uber Eats: wrong order, late delivery, missing items",
+    "general_complaint": "Vague frustration, unclear intent",
+    "positive_feedback": "Praise, compliments \u2014 auto-handle with thank-you"
+  }
+}

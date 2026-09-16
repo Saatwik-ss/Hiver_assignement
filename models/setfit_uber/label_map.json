@@ -1,0 +1,44 @@
+{
+  "labels": [
+    "account_access",
+    "app_technical",
+    "driver_behavior",
+    "eats_order",
+    "general_complaint",
+    "lost_item",
+    "payment_billing",
+    "positive_feedback",
+    "ride_cancellation",
+    "safety_incident",
+    "trip_issue",
+    "wait_time"
+  ],
+  "label2id": {
+    "account_access": 0,
+    "app_technical": 1,
+    "driver_behavior": 2,
+    "eats_order": 3,
+    "general_complaint": 4,
+    "lost_item": 5,
+    "payment_billing": 6,
+    "positive_feedback": 7,
+    "ride_cancellation": 8,
+    "safety_incident": 9,
+    "trip_issue": 10,
+    "wait_time": 11
+  },
+  "id2label": {
+    "0": "account_access",
+    "1": "app_technical",
+    "2": "driver_behavior",
+    "3": "eats_order",
+    "4": "general_complaint",
+    "5": "lost_item",
+    "6": "payment_billing",
+    "7": "positive_feedback",
+    "8": "ride_cancellation",
+    "9": "safety_incident",
+    "10": "trip_issue",
+    "11": "wait_time"
+  }
+}

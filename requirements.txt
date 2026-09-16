@@ -1,0 +1,29 @@
+# Core ML
+sentence-transformers>=2.7.0
+setfit>=1.0.3
+faiss-cpu>=1.7.4
+scikit-learn>=1.4.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Clustering (intent discovery)
+umap-learn>=0.5.6
+hdbscan>=0.8.33
+
+# LLM clients
+groq>=0.9.0
+ollama>=0.2.1
+
+# Evaluation
+rouge-score>=0.1.2
+bert-score>=0.3.13
+vaderSentiment>=3.3.2
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+rich>=13.7.0
+click>=8.1.7
+joblib>=1.4.2
+torch>=2.2.0           # required by sentence-transformers
+transformers>=4.40.0   # required by setfit + bert-score

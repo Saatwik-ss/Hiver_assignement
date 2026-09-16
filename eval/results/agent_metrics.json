@@ -1,0 +1,14 @@
+{
+  "system": "Our Agent (SetFit+RAG)",
+  "n": 140,
+  "intent": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  "escalation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "rouge_l": 0.9536
+}

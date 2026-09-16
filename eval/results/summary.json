@@ -1,0 +1,44 @@
+[
+  {
+    "system": "Baseline 1 (Trivial)",
+    "n": 140,
+    "intent": {
+      "accuracy": 0.0643,
+      "macro_f1": 0.0101
+    },
+    "escalation": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "rouge_l": 0.2043
+  },
+  {
+    "system": "Baseline 2 (Cosine NN)",
+    "n": 140,
+    "intent": {
+      "accuracy": 0.4857,
+      "macro_f1": 0.429
+    },
+    "escalation": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "rouge_l": 0.9789
+  },
+  {
+    "system": "Our Agent (SetFit+RAG)",
+    "n": 140,
+    "intent": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "escalation": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "rouge_l": 0.9536
+  }
+]
