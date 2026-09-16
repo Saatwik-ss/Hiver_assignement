@@ -9,33 +9,32 @@ whether to auto-handle or escalate to a human agent.
 ## Reproduce headline results in < 15 minutes
 
 ```bash
-# 0. Clone & install (2 min)
-git clone <your-repo>
-cd hiver
+# 0. Clone & install
+git clone https://github.com/Saatwik-ss/Hiver_assignement.git
+cd Hiver_assignement
 pip install -r requirements.txt
-
-# 1. Configure environment (30 sec)
+# 1. Configure environment 
 cp .env.example .env
 # → Edit .env: add your GROQ_API_KEY (free at https://console.groq.com/keys)
 # → If no Groq key: set GROQ_API_KEY= (leaves it blank; Ollama fallback activates)
 
-# 2. Extract Uber data (3 min on first run)
+# 2. Extract Uber data
 python src/data_prep.py
 # → Creates data/uber_pairs_full.json (~56k English pairs)
 
-# 3. Discover intents + build FAISS index (3 min)
+# 3. Discover intents + build FAISS index 
 python src/intent_discovery.py
 python src/rag_indexer.py --build
 
-# 4. Train SetFit classifier (2 min)
+# 4. Train SetFit classifier
 # NOTE: data/few_shot_train.json is pre-populated with 16 labelled examples per intent.
 # You can re-generate it via: python src/intent_discovery.py (re-run after editing INTENT_NAMES)
 python src/intent_classifier.py --train
 
-# 5. Run the agent on a message (10 sec)
+# 5. Run the agent on a message
 python src/agent.py --message "my driver cancelled twice and I was still charged a cancellation fee"
 
-# 6. Run evaluation against golden set (3 min, skip BERTScore to stay under 15 min)
+# 6. Run evaluation against golden set 
 python src/evaluate.py --golden eval/golden_eval.json --skip-bert
 ```
 
@@ -108,7 +107,7 @@ Multi-signal escalation router
   → AUTO-HANDLE or ESCALATE (with stated reason)
 ```
 
-### Why these choices (short version — see Decision Log for full rationale)
+### Why these choices (short version — Decision Log contains some reasoning for the decisions)
 
 | Component | Choice | Why |
 |---|---|---|
